@@ -1,6 +1,6 @@
 # PrettyPrinter
 
-[![Build Status](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/actions/workflows/build.yml/badge.svg)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/actions)
+[![Build](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/actions/workflows/build.yml)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/releases)
 
 
