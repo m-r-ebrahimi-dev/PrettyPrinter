@@ -1,7 +1,7 @@
 # PrettyPrinter
 
-[![Build Status](https://github.com/m-r-ebrahimi-dev/PrettyPrinter.git/actions/workflows/build.yml/badge.svg)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter.git/actions)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter.git/releases)
+[![Build Status](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/actions/workflows/build.yml/badge.svg)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/actions)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/m-r-ebrahimi-dev/PrettyPrinter/releases)
 
 
 📜 A java-based library to supercharge your printing with decorators. Add colors, timestamps, formatting, and more to your console outputs effortlessly! Perfect for creating beautiful and dynamic print statements.
