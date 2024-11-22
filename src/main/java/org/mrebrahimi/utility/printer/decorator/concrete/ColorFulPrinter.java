@@ -1,5 +1,6 @@
-package org.mrebrahimi.utility.printer.decorator;
+package org.mrebrahimi.utility.printer.decorator.concrete;
 
+import org.mrebrahimi.utility.printer.decorator.Printer;
 import org.mrebrahimi.utility.printer.model.Printable;
 
 import static org.mrebrahimi.utility.printer.util.Constants.RESET;

@@ -1,4 +1,6 @@
-package org.mrebrahimi.utility.printer.decorator;
+package org.mrebrahimi.utility.printer.decorator.concrete;
+
+import org.mrebrahimi.utility.printer.decorator.Printer;
 
 public abstract class ConcretePrinter implements Printer {
 
