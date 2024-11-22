@@ -3,6 +3,7 @@ package org.mrebrahimi.utility.printer.util;
 import org.mrebrahimi.utility.printer.model.*;
 
 import java.lang.reflect.Field;
+import java.util.Arrays;
 import java.util.List;
 
 public class PrintableConverter {
@@ -22,11 +23,14 @@ public class PrintableConverter {
         Class<?> clazz = object.getClass();
         Field[] declaredFields = clazz.getDeclaredFields();
         String[] objects = new String[declaredFields.length];
+        int maxLength = Arrays.stream(declaredFields).
+                mapToInt(field -> field.getName().toString().length()).max().orElse(0);
         for (int i = 0; i < declaredFields.length; i++) {
             Field field = declaredFields[i];
             field.setAccessible(true);
             try {
-                objects[i] = field.getName().concat(": ").concat(field.get(object).toString());
+                objects[i] = String.format("%-" + maxLength + "s", field.getName()).concat(" : ")
+                        .concat(field.get(object).toString());
             } catch (IllegalAccessException e) {
                 throw new RuntimeException(e);
             }
